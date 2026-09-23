@@ -1,0 +1,11 @@
+# TXDigital / UPS - Variant 1
+10 6,14,22 * * * cd /opt/metro && /usr/bin/node /opt/metro/index.js --variant=1 --no-sandbox --upsDelay=3m --slowMo=500 --clickDelay=1500 >> /opt/log/txdigital.log 2>&1
+
+# TXDigital / UPS - Variant 2
+4 4,12,20 * * * cd /opt/metro && /usr/bin/node /opt/metro/index.js --variant=2 --no-sandbox --upsDelay=5m --slowMo=500 --clickDelay=1500 >> /opt/log/txdigital.log 2>&1
+
+# TXDigital / UPS - Variant 3
+9 0,8,16 * * * cd /opt/metro && /usr/bin/node /opt/metro/index.js --variant=3 --no-sandbox --upsDelay=4m --slowMo=500 --clickDelay=1500 >> /opt/log/txdigital.log 2>&1
+
+# TXDigital / UPS - Variant 4
+5 2,10,18 * * * cd /opt/metro && /usr/bin/node /opt/metro/index.js --variant=4 --no-sandbox --upsDelay=6m --slowMo=500 --clickDelay=1500 >> /opt/log/txdigital.log 2>&1

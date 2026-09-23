@@ -1,0 +1,15 @@
+[Unit]
+Description=Metro Variations Web Panel
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/metro
+ExecStart=/usr/bin/node /opt/metro/web.js
+Restart=always
+RestartSec=5
+Environment=WEB_HOST=0.0.0.0
+Environment=WEB_PORT=1989
+
+[Install]
+WantedBy=multi-user.target

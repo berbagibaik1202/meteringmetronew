@@ -1,0 +1,16 @@
+{
+  "name": "imacros-puppeteer-runner",
+  "version": "1.0.0",
+  "description": "Run iMacros-style checklist steps with Node.js and Puppeteer.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "run:tx": "node index.js IMACROSTXDIGITAL.txt",
+    "web": "node web.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^23.11.1"
+  }
+}

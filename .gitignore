@@ -1,0 +1,13 @@
+node_modules/
+log/
+.env
+.env.*
+user.json
+variations.json
+variations*.json
+img/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
